@@ -23,7 +23,7 @@
 }
 
 .containerInput {
-    background-color: #dff5ef;
+    background-color: #7f8080;
     padding: 15px;
     margin: 34px 0;
     display: flex;
@@ -53,4 +53,45 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.buttonSearch:hover {
+    transform: scale(1.2);
+}
+
+.main {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffff;
+    width: 500px;
+    border-radius: 8px;
+}
+
+.main h2{
+    margin: 16px 0px;
+    font-size: 39px;
+}
+
+.main span {
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+
+@media (max-width:620px) {
+    .title{
+        font-size: 60px;
+    }
+
+    .main h2{
+        font-size: 28px;
+    }
+
+    .main{
+        width: 80%;
+        min-height: 250px;
+    }
 }
