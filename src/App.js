@@ -40,7 +40,7 @@ function App() {
         placeholder="Digite seu cep..."
         value={input}
         onChange={(evento) => setInput(evento.target.value)} 
-        maxLength="8"
+        maxLength="9"
         />
 
         <button className="buttonSearch" onClick={handleSearch}>
