@@ -4,6 +4,7 @@
 
 ><h2>About</h2>
 >This project is part of my repository for applying techniques and training the codes.
+>This app aims to get a zip code and show the location like street and neighborhood
 >
 > Main languages: HTML, CSS, JavaScript, ReactJS.
 ><h2>My Project</h2>
